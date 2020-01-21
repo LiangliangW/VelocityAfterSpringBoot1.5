@@ -1,0 +1,15 @@
+spring:
+  velocity:
+    charset: UTF-8
+    cache: false
+    check-template-location: true
+    content-type: text/html
+    enabled: true
+    resource-loader-path: /templates
+    prefix: /templates/
+    suffix: .vm
+    properties:
+      input:
+        encoding: UTF-8
+      output:
+        encoding: UTF-8
