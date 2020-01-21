@@ -10,8 +10,8 @@ import java.util.Map;
 public class TestController {
     @RequestMapping("/index")
     public ModelAndView velocityTest(Map map){
+        map.put("name", "沈则");
         map.put("message", "velocity测试");
-        map.put("toUserName", "武俍俍");
         return new ModelAndView("index", map);
     }
 }

@@ -5,10 +5,8 @@
     <title>Document</title>
 </head>
 <body>
-${toUserName}，你好！
+${name}，你好！
 
     ${message}
-
-祝：开心！
 </body>
 </html>
